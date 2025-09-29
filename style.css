@@ -1,0 +1,87 @@
+body{
+    width: 1200px;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.ask-btn{
+    background-color: #33836e;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+}
+
+/* .contact{
+    display: block;
+} */
+
+.phone-number{
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+
+.contact-info{
+    color: #2F2B4380;
+}
+
+.search{
+    border: 0cap;
+    width: 427px;
+    border-radius: 16px;
+    background-color: #2F2B430A;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.menu-border{
+    border: 1px solid #2F2B4326;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px ;
+}
+
+.menu-bord{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #140A32;
+}
+
+.meme{
+    font-size: 16px;
+    margin-top: 30px;
+    color: #2F2B4380;
+}
+
+.base{
+    font-size: 38px;
+}
+
+
+
