@@ -1,16 +1,17 @@
-body{
-    width: 1200px;
+body {
+    width: 1300px;
     margin: auto;
+    font-family: "Open Sans";
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-.ask-btn{
+.ask-btn {
     background-color: #33836e;
     border: none;
     border-radius: 10px;
@@ -27,17 +28,18 @@ body{
     display: block;
 } */
 
-.phone-number{
+.phone-number {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
     display: block;
+    color: #33836e;
 }
 
-.contact-info{
+.contact-info {
     color: #2F2B4380;
 }
 
-.search{
+.search {
     border: 0cap;
     width: 427px;
     border-radius: 16px;
@@ -46,7 +48,7 @@ body{
     padding: 10px 20px;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     margin-top: 40px;
@@ -54,7 +56,7 @@ body{
     justify-content: space-between;
 }
 
-.menu-border{
+.menu-border {
     border: 1px solid #2F2B4326;
     padding: 10px 20px;
     border-radius: 10px;
@@ -65,35 +67,66 @@ body{
     gap: 8px ;
 }
 
-.menu-bord{
+.menu-bord {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 8px;
 }
+
+.bread {
+    color: gray;
+    margin: 30px;
+    margin-left: 0%;
+}
+
+.help-text{
+    margin-top: 200;
+    margin-bottom: 200;
+
+}
+
 .menu a{
     text-decoration: none;
     font-size: 16px;
     color: #140A32;
+    align-items: center;
+    border-radius: 10px;
+    padding: auto;
 }
 
-.meme{
+.features {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    margin-top: 20px;
     font-size: 16px;
-    margin-top: 30px;
-    color: #2F2B4380;
 }
 
-.base{
+.image {
+    border-radius: 50%;
+    width: 377px;
+    height: 402px;
+}
+
+.question {
+    display: flex;
+    gap: 30px;
+}
+
+.hero {
+    display: flex;
+}
+
+.onas{
+    display: block;
+}
+
+.ew {
+    display: flex;
     font-size: 38px;
-    width: 657px;
-    height: 104px;
-    top: 277px;
-    left: 150px;
 }
 
-.text{
-    font-size: 16px;
+.we {
+    font-size: 22px;
 }
-
-
-
